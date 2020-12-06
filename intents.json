@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "handleIllness",
+         "patterns": ["severe headache","headache","cough", "cattarh", "asthma","stomach pain", "body pains","malaria","fever",
+            "feverish", "body pains","pregnancy", "asthama", "Allergy", "aneamia", "high blood pressur", "Urinary Retention", "hepatitis B",
+            "diabetes", "Diarrhea", "chicken pox", "pneumonia", "high blood pressure", "jaundice", "cold/flu", "vomitting",
+            "I have been having", "I noticed","there has been", " I woke up",
+    "I Feel tired or lightheaded (sometimes its as if i want to fainting)Weakness Fatigue easily,Have decreased energy to do anything",
+    "Appear pale,Develop palpitations or rapid heart rate,Experience shortness of breath","I am having", 
+    "nasal congestion,itchy and watery eyes,sneezing,stuffy or runny nose,scratchy or sore throat,throat clearing",
+    "cough from postnasal drip.","heart diseases and associated problems","blood pressure level", "chances for pregnancy", "menstrual pain",
+    "menstrual cycle", "menstrual", "menstrual problem", "fever", "irritable Bowel syndrome", "mouth bleeding", "I feel", 
+    "pregnancy after an egg rupture", "conceive successfully?", "conception during pregnancy", "difficulty in getting pregnant", 
+    "help me getting pregnant","delay in periods and white discharge", "stomach cramps and nausea", "vaginal bleeding", "sores in the womb",
+    "unprotected sex", "birth control", "allergies"," chronic pain", "digestive issues", "hormonal imbalances", "obesity", 
+    "respiratory conditions", "heart disease", "fertility problems", "menopause", "adrenal fatigue", "cancer", 
+    "fibromyalgia and chronic fatigue syndrome" ],
+         "responses": ["How long has it been going on for?"],
+         "context": [""]
+        },
+        
+         {"tag": "handleDuration",
+         "patterns": ["days", "weeks", "days ago", "some days ago", "some weeks ago", "last week", "for the past", "for a while now",
+                     "for some time", "been a while", "last night", "yesterday", "days ago", "morning", "afternoon", "evening", "months",
+                     "year", "years", "month"],
+         "responses": ["Have you started any treatment for it? if yes, what treatment is that?"],
+         "context": [""]
+        },
+    
+        
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you, can you re-enter your input",
+                       "Not sure I understand, can you please re-enter your input"],
+         "context": [""]
+        }
+
+   ]
+}
